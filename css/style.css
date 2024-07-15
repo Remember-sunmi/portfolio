@@ -1,0 +1,755 @@
+/* content 
+    box1 */
+div.tab-content div.box1 {
+    /* border: 10px solid sandybrown; */
+    width: 100%;
+    height: 100%;
+    padding-top: 70px;
+}
+
+.typing {
+    /* border: 10px solid palegoldenrod; */
+    height: 100px;
+    font-size: 1.8rem;
+    padding-left: 150px;
+    float: left;
+}
+
+.text {
+    width: 100%;
+    font-size: 35px;
+    font-family: "consola";
+    /* border: 10px solid palegoldenrod; */
+}
+
+.text::after {
+    content: '';
+    margin-left: .4rem;
+    border-right: 2px solid #777;
+    animation: cursor .9s infinite steps(2);
+}
+
+@keyframes cursor {
+    from {
+        border-right: 10px solid #ffffff;
+    }
+
+    to {
+        border-right: 10px solid #ff9100;
+    }
+}
+
+/* ------------------------------------ */
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+div.tab-content div.box1 div.start {
+    width: 100%;
+    height: 500px;
+    /* border: 10px solid seagreen; */
+    padding-top: 350px;
+    padding-left: 30px;
+}
+
+div.tab-content div.box1 div.start h2 {
+    font-family: "SourceSansPro-Regular";
+    font-size: 20px;
+    color: #000;
+    letter-spacing: -0.02em;
+}
+
+div.tab-content div.box1 div.start div.about {
+    border-top: 1px solid rgb(100, 100, 100);
+    width: calc((100% - 80px) / 4);
+    margin-right: 20px;
+    padding-top: 15px;
+    margin-top: 25px;
+    float: left;
+    transform: scale(1.0);
+    transition: transform .5s;
+}
+
+div.tab-content div.box1 div.start div.about:hover {
+    transform: scale(1.03);
+    transition: transform .5s;
+}
+
+div.tab-content div.box1 div.start div.about h3 {
+    font-family: "SourceSansPro-Regular";
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+div.tab-content div.box1 div.start div.about h3 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+div.tab-content div.box1 div.start div.about p {
+    padding-top: 18px;
+    font-family: "Pretendard-Regular";
+    font-weight: normal;
+    font-style: normal;
+    color: #666;
+    line-height: 1.2;
+    font-size: 16px;
+}
+
+
+div.tab-content div.box1 div.start div.project {
+    border-top: 1px solid rgb(100, 100, 100);
+    width: calc((100% - 80px) / 4);
+    margin-right: 20px;
+    margin-top: 25px;
+    padding-top: 15px;
+    float: left;
+    transform: scale(1.0);
+    transition: transform .5s;
+}
+
+div.tab-content div.box1 div.start div.project:hover {
+    transform: scale(1.03);
+    transition: transform .5s;
+}
+
+
+div.tab-content div.box1 div.start div.project h3 {
+    font-family: "SourceSansPro-Regular";
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+div.tab-content div.box1 div.start div.project h3 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+div.tab-content div.box1 div.start div.project p {
+    padding-top: 18px;
+    font-family: "Pretendard-Regular";
+    font-weight: normal;
+    font-style: normal;
+    color: #666;
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+div.tab-content div.box1 div.start div.blog {
+    border-top: 1px solid rgb(100, 100, 100);
+    width: calc((100% - 80px) / 4);
+    margin-right: 20px;
+    padding-top: 15px;
+    margin-top: 25px;
+    float: left;
+    transform: scale(1.0);
+    transition: transform .5s;
+}
+
+div.tab-content div.box1 div.start div.blog:hover {
+    transform: scale(1.03);
+    transition: transform .5s;
+}
+
+div.tab-content div.box1 div.start div.blog h3 {
+    font-family: "SourceSansPro-Regular";
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+div.tab-content div.box1 div.start div.blog h3 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+div.tab-content div.box1 div.start div.blog p {
+    padding-top: 18px;
+    font-family: "Pretendard-Regular";
+    font-weight: normal;
+    font-style: normal;
+    color: #666;
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+div.tab-content div.box1 div.start div.contact2 {
+    border-top: 1px solid rgb(100, 100, 100);
+    width: calc((100% - 80px) / 4);
+    margin-top: 25px;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: left;
+    transform: scale(1.0);
+    transition: transform .5s;
+}
+
+div.tab-content div.box1 div.start div.contact2:hover {
+    transform: scale(1.03);
+    transition: transform .5s;
+}
+
+div.tab-content div.box1 div.start div.contact2 h3 {
+    font-family: "SourceSansPro-Regular";
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+div.tab-content div.box1 div.start div.contact2 h3 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+
+div.tab-content div.box1 div.start div.contact2 p {
+    padding-top: 18px;
+    font-family: "Pretendard-Regular";
+    font-weight: normal;
+    font-style: normal;
+    color: #666;
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+/* gift-box animation */
+
+.boxContainer {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    /* margin: 150px auto; */
+    /* border: 10px solid palegoldenrod; */
+    float: left;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.boxBody {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: #FFFFFF;
+    /*   box-shadow: 3px 3px 5px rgba(0,0,0,0.2); */
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.boxBody:after,
+.boxLid:after {
+    content: '';
+    width: 20%;
+    height: 100%;
+    background: #d30000;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.boxLid {
+    width: 110%;
+    height: 20%;
+    background: #FFFFFF;
+    /*   box-shadow: 3px 3px 5px rgba(0,0,0,0.2); */
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: -5%;
+    left: -5%;
+    z-index: 2;
+}
+
+.boxContainer.open {
+    animation: prelaunch 1.5s cubic-bezier(0.280, 0.840, 0.420, 1);
+}
+
+.boxContainer.open .boxLid {
+    animation: launch 1.5s forwards cubic-bezier(0.280, 0.840, 0.420, 1);
+}
+
+.boxContainer.open .boxRibbon {
+    animation: wonky 1.5s forwards;
+}
+
+
+@keyframes prelaunch {
+    0% {
+        transform: scale(1, 1)
+    }
+
+    10% {
+        transform: scale(1.1, .9)
+    }
+
+    30% {
+        transform: scale(.9, 1.1)
+    }
+
+    50% {
+        transform: scale(1.05, .95)
+    }
+
+    100% {
+        transform: scale(1, 1)
+    }
+}
+
+
+@keyframes launch {
+    0% {
+        transform: translateY(0);
+    }
+
+    10% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(-1000px);
+    }
+
+    50% {
+        transform: translateY(-1000px);
+    }
+
+    57% {
+        transform: translate(-55%, 120%) rotate(-50deg);
+    }
+
+    64% {
+        transform: translate(-55%, 120%) rotate(-50deg);
+    }
+
+    100% {
+        transform: translate(-55%, 120%) rotate(-50deg);
+    }
+}
+
+@keyframes wonky {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    57% {
+        top: -70%;
+        transform: rotateZ(-35deg)
+    }
+
+    100% {
+        top: -70%;
+        transform: rotateZ(-35deg)
+    }
+}
+
+.boxRibbon {
+    position: absolute;
+    font-size: 1em;
+    top: -95%;
+    left: 38%;
+    transform: perspective(10em) rotateX(5deg) rotateZ(0deg);
+    width: 20%;
+    height: 100%;
+    background: #d30000;
+    border-radius: 30%;
+    perspective: 10em;
+    box-shadow: 0 .3em 3em -.3em #1C2B47;
+    z-index: 1;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.3);
+}
+
+.boxRibbon::before,
+.boxRibbon::after {
+    content: '';
+    position: absolute;
+    background: #d30000;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: .3em;
+}
+
+.boxRibbon::before {
+    left: 0;
+    transform: translate(-80%, -50%) perspective(2em) rotateY(20deg);
+    box-shadow: -0.1em 0 1.1em -0.5em #000 inset, 0 0.3em 3em -0.3em #1C2B47;
+}
+
+.boxRibbon::after {
+    right: 0;
+    transform: translate(80%, -50%) perspective(2em) rotateY(-20deg);
+    box-shadow: 0.1em 0 1.1em -0.5em #000 inset, 0 0.3em 3em -0.3em #1C2B47;
+}
+
+/* content 
+    box2 */
+div.tab-content div.box2 {
+    width: 100%;
+    height: 750px;
+    /* border: 10px solid palegoldenrod; */
+    padding-top: 70px;
+    padding-left: 20px;
+
+}
+
+div.tab-content div.box2 h1 {
+    font-family: "consola";
+    font-weight: 600;
+    font-size: 30px;
+    color: #000;
+    padding-bottom: 12px;
+}
+
+div.tab-content div.box2 h1 img {
+    width: 40px;
+    height: 40px;
+}
+
+div.tab-content div.box2 div.about {
+    height: 550px;
+    /* 수직 스크롤 활성화 */
+    overflow-y: auto;
+    /* border: 10px solid seagreen; */
+}
+
+div.tab-content div.box2 div.about::-webkit-scrollbar {
+    display: none;
+    /* 웹킷 기반 브라우저에서 스크롤바 숨기기 */
+}
+
+div.tab-content div.box2 div.about p {
+    font-family: "consola";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #a09f9f;
+    padding-top: 9px;
+}
+
+div.tab-content div.box2 div.about p span.all_span {
+    padding-left: 40px;
+    font-family: "consola";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #333;
+}
+
+div.tab-content div.box2 div.about p span.ko {
+    font-family: "Pretendard-Regular";
+    font-weight: normal;
+    font-style: normal;
+    color: #333;
+    font-size: 20px;
+}
+
+div.tab-content div.box2 div.about p img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px
+}
+
+
+div.tab-content div.box2 div.about p span.tag_name {
+    color: #b40000;
+}
+
+div.tab-content div.box2 div.about p span.class_name {
+    color: #ff3c3c;
+}
+
+div.tab-content div.box2 div.about p span.normal_name {
+    color: #0084d1;
+}
+
+
+
+
+
+/* content 
+    box3 */
+div.tab-content div.box3 {
+    /* border: 10px solid palegoldenrod; */
+    width: 100%;
+    height: 750px;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+div.tab-content div.box3 h1 {
+    font-family: "consola";
+    font-weight: 600;
+    font-size: 30px;
+    color: #000;
+    padding-bottom: 12px;
+}
+
+div.tab-content div.box3 h1 img {
+    width: 40px;
+    height: 40px;
+}
+
+div.tab-content div.box3 div.p1 {
+    /* border: 10px solid palevioletred; */
+    width: calc((100% - 60px) / 3);
+    height: 500px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 50px;
+    background: #000000;
+    border-radius: 10px;
+    transform: scale(1.0);
+    transition: transform .5s;
+}
+
+div.tab-content div.box3 div.p1:hover {
+    transform: scale(1.02);
+    transition: transform .5s;
+}
+
+
+div.tab-content div.box3 div.p1:last-child {
+    margin-right: 0;
+}
+
+
+div.tab-content div.box3 div.p1 img {
+    width: 100%;
+    /* height: 100%; */
+    -webkit-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+}
+
+div.tab-content div.box3 div.p1 h2 {
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Pretendard-Regular";
+    font-size: 22px;
+    font-weight: 600;
+}
+
+div.tab-content div.box3 div.p1 p {
+    color: #d3d3d3;
+    text-align: center;
+    padding: 20px;
+    font-family: "Pretendard-Regular";
+    font-size: 16px;
+    letter-spacing: 1px;
+
+}
+
+div.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+div.container a {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid #dadada;
+    border-radius: 0.7375em;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Pretendard-Regular";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    outline: none;
+    padding: 0.6em 3.5em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+
+div.container a:disabled {
+    pointer-events: none;
+}
+
+div.container a:hover {
+    color: #fff;
+    background-color: #ff9100;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+    border: none;
+}
+
+div.container a:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+/* content
+    box04 */
+
+div.tab-content div.box4 {
+    /* border: 10px solid sandybrown; */
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+div.tab-content div.box4 h3 {
+    font-family: "consola";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color: #000;
+    padding-bottom: 12px;
+}
+
+div.tab-content div.box4 h3 img {
+    width: 40px;
+    height: 40px;
+}
+
+div.tab-content div.box4 div.study{
+    width: calc(100% / 3);
+    float: left;
+}
+
+div.tab-content div.box4 div.study h4{
+    font-family: "consola";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    color: #333;
+    padding-bottom: 12px;
+    margin-top: 50px;
+}
+
+div.tab-content div.box4 div.study p img{
+    transform: scale(1.0);
+    transition: transform .5s;
+}
+
+div.tab-content div.box4 div.study p img:hover{
+    transform: scale(1.02);
+    transition: transform .5s;
+}
+
+div.tab-content div.box4 div.study p.ex{
+    font-family: "consola";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #666;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+div.tab-content div.box4 div.practice{
+    width: calc(100% / 3);
+    float: left;
+}
+
+div.tab-content div.box4 div.practice h4{
+    font-family: "consola";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    color: #333;
+    padding-bottom: 12px;
+    margin-top: 50px;
+}
+
+div.tab-content div.box4 div.practice p{
+    font-family: "consola";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #666;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+
+div.tab-content div.box4 div.memoir{
+    width: calc(100% / 3);
+    float: left;
+}
+
+div.tab-content div.box4 div.memoir h4{
+    font-family: "consola";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    color: #333;
+    padding-bottom: 12px;
+    margin-top: 50px;
+}
+
+div.tab-content div.box4 div.memoir p{
+    font-family: "consola";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #666;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+
+
+
+/* content 
+    box5 */
+
+div.tab-content div.box5 {
+    /* border: 10px solid sandybrown; */
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+div.tab-content div.box5 h3 {
+    font-family: "consola";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color: #000;
+    padding-bottom: 12px;
+}
+
+div.tab-content div.box5 h3 img {
+    width: 40px;
+    height: 40px;
+}
+
+div.contact p {
+    /* border: 10px solid palegoldenrod; */
+    padding-top: 8px;
+    font-family: "consola";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #a09f9f;
+}
+
+div.tab-content div.box5 p span {
+    font-family: "consola";
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 30px;
+    color: #333;
+}
+
+div.tab-content div.box5 p a span.info {
+    padding: 0px;
+    color: #ff5c5c;
+}
+
+div.tab-content div.box5 p a span.links:hover {
+    border-bottom: 2px solid #ff5c5c;
+}
