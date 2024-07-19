@@ -672,7 +672,28 @@ div.tab-content div.box4 div.practice p{
     font-size: 18px;
     color: #666;
     padding-top: 12px;
-    padding-left: 10px;
+}
+
+div.tab-content div.box4 div.practice p img{
+    transform: scale(1.0);
+    transition: transform .5s;
+    width: 225px;
+    height: 225px;
+}
+
+div.tab-content div.box4 div.practice p img:hover{
+    transform: scale(1.02);
+    transition: transform .5s;
+}
+
+div.tab-content div.box4 div.practice p.ex{
+    font-family: "consola";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #666;
+    padding-top: 12px;
+    padding-left: 20px;
 }
 
 
