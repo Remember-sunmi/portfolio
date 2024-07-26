@@ -475,9 +475,19 @@ div.tab-content div.box2 div.about p span.normal_name {
 div.tab-content div.box3 {
     /* border: 10px solid palegoldenrod; */
     width: 100%;
-    height: 750px;
+    height: 800px;
     padding-top: 70px;
     padding-left: 20px;
+}
+
+div.tab-content div.box3 div.project {
+    overflow-y: auto;
+    height: 100%;
+}
+
+div.tab-content div.box3 div.project::-webkit-scrollbar {
+    display: none;
+    /* 웹킷 기반 브라우저에서 스크롤바 숨기기 */
 }
 
 div.tab-content div.box3 h1 {
@@ -563,7 +573,7 @@ div.container a {
     font-size: 16px;
     font-weight: 600;
     line-height: normal;
-    margin: 0;
+    margin: 10px;
     outline: none;
     padding: 0.6em 3.5em;
     text-align: center;
@@ -649,80 +659,6 @@ div.tab-content div.box4 div.study p.ex{
     padding-top: 12px;
     padding-left: 10px;
 }
-
-div.tab-content div.box4 div.practice{
-    width: calc(100% / 3);
-    float: left;
-}
-
-div.tab-content div.box4 div.practice h4{
-    font-family: "consola";
-    font-weight: 600;
-    font-style: normal;
-    font-size: 24px;
-    color: #333;
-    padding-bottom: 12px;
-    margin-top: 50px;
-}
-
-div.tab-content div.box4 div.practice p{
-    font-family: "consola";
-    font-weight: 600;
-    font-style: normal;
-    font-size: 18px;
-    color: #666;
-    padding-top: 12px;
-}
-
-div.tab-content div.box4 div.practice p img{
-    transform: scale(1.0);
-    transition: transform .5s;
-    width: 225px;
-    height: 225px;
-}
-
-div.tab-content div.box4 div.practice p img:hover{
-    transform: scale(1.02);
-    transition: transform .5s;
-}
-
-div.tab-content div.box4 div.practice p.ex{
-    font-family: "consola";
-    font-weight: 600;
-    font-style: normal;
-    font-size: 18px;
-    color: #666;
-    padding-top: 12px;
-    padding-left: 20px;
-}
-
-
-div.tab-content div.box4 div.memoir{
-    width: calc(100% / 3);
-    float: left;
-}
-
-div.tab-content div.box4 div.memoir h4{
-    font-family: "consola";
-    font-weight: 600;
-    font-style: normal;
-    font-size: 24px;
-    color: #333;
-    padding-bottom: 12px;
-    margin-top: 50px;
-}
-
-div.tab-content div.box4 div.memoir p{
-    font-family: "consola";
-    font-weight: 600;
-    font-style: normal;
-    font-size: 18px;
-    color: #666;
-    padding-top: 12px;
-    padding-left: 10px;
-}
-
-
 
 
 /* content 
